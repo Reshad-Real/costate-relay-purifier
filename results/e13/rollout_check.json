@@ -1,0 +1,14 @@
+{
+  "0.8": {
+    "n": 200,
+    "n_violations": 0,
+    "min_rel_improvement": 0.007521187256524255,
+    "median_rel_improvement": 0.012544984560469794
+  },
+  "1.0": {
+    "n": 200,
+    "n_violations": 0,
+    "min_rel_improvement": 0.0044955392222917135,
+    "median_rel_improvement": 0.016094527956510445
+  }
+}

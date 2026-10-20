@@ -1,0 +1,17 @@
+{
+ "cases": 3000,
+ "mismatches": 0,
+ "decisions": [
+  1005,
+  1134,
+  380,
+  481
+ ],
+ "max_rel_margin_at_mismatch": null,
+ "budget_limited_cases": 1532,
+ "K": 600,
+ "k_on": 60,
+ "k_off": 540,
+ "macs_backward_max": 32400,
+ "macs_scoring": 432
+}

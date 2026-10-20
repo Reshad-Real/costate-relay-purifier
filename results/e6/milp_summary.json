@@ -1,0 +1,10 @@
+{
+  "n": 100,
+  "scipy": "1.17.1",
+  "max_rel_gap": 2.236214055192275e-16,
+  "first_move_agreement": 1.0,
+  "median_t_milp_ms": 439.6886500180699,
+  "p95_t_milp_ms": 2497.893955017207,
+  "max_t_milp_ms": 5338.327000034042,
+  "n_optimal": 100
+}

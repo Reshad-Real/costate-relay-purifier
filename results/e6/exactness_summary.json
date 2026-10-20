@@ -1,0 +1,11 @@
+{
+  "instances": 300,
+  "max_rel_gap": 3.979613559788392e-16,
+  "lb_checks": 900,
+  "lb_violations": 0,
+  "first_move_agreement": 1.0,
+  "median_nodes_bb": 245.0,
+  "p95_nodes_bb": 982.05,
+  "full_tree_nodes": 5461,
+  "median_leaves_bb": 1.0
+}

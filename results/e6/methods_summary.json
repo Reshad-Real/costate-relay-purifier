@@ -1,0 +1,20 @@
+{
+  "rr": {
+    "median_gap": 0.0,
+    "p95_gap": 0.008686007034794784,
+    "max_gap": 0.04753700275937887,
+    "share_gap_gt_1pct": 0.04,
+    "share_suboptimal": 0.37,
+    "first_move_agreement": 0.8433333333333334,
+    "round_infeasible_share_binding": 0.5241379310344828
+  },
+  "const": {
+    "median_gap": 0.00023753982708993716,
+    "p95_gap": 0.0578328483657606,
+    "max_gap": 0.20020372278412701,
+    "share_gap_gt_1pct": 0.21333333333333335,
+    "share_suboptimal": 0.5366666666666666
+  },
+  "n": 300,
+  "n_binding": 145
+}

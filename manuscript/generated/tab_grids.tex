@@ -1,0 +1,12 @@
+\begin{tabular}{p{3.2cm}p{5.4cm}rp{4.2cm}r}
+\toprule
+Baseline & Grid & Points & Optimum & $J$ (tuning)\\
+\midrule
+Threshold + hysteresis, raw input & $\theta_1\in\{10..60\}$, $\Delta\theta\in\{5..120\}$, band $\in\{0..20\}$, gating on/off & 237 & $\theta_1$ 25, $\Delta\theta$ 30, band 2.5, gated & 23.1735\\
+Threshold + hysteresis, 60-s mean & $\theta_1\in\{15..35\}$, $\Delta\theta\in\{20..80\}$, band $\in\{0,2.5,5\}$, gated & 75 & $\theta_1$ 25, $\Delta\theta$ 30, band 2.5, gated, mean over 6 & 23.1735\\
+Scheduled duty & $u\in\{0.8,0.9,1\}$, pre-purge $\in\{0..60\}$\,min & 12 & duty 90\,\%, pre 30 min & 23.2934\\
+PI, sigma--delta & setpoint $\in\{4..35\}$, $K_\mathrm{P}\in\{0.06..2\}$, $K_\mathrm{I}\in\{0..6\}$ & 139 & setpoint 10, $K_\mathrm{P}$ 0.25, $K_\mathrm{I}$ 0 & 23.2424\\
+Timer + relay & lead $\in\{20..90\}$, tail $\in\{0..120\}$\,min, $u\in\{0.8,0.9\}$ & 62 & lead 55 min, tail 10 min, duty 80\,\% & 23.2887\\
+Zone-tracking MPC & setpoint $\in\{5..35\}$, tracking weight $\in\{0.003..10\}$ & 36 & tracking weight 0.01, setpoint 7.5 & 23.1731\\
+\bottomrule
+\end{tabular}

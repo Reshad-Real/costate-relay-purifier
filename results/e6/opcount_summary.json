@@ -1,0 +1,15 @@
+{
+  "0": {
+    "median_flops": 4553525.0,
+    "max_flops": 5251176.0
+  },
+  "1": {
+    "median_flops": 1797545.0,
+    "max_flops": 5514157.0
+  },
+  "2": {
+    "median_flops": 1129804.0,
+    "max_flops": 5469309.0
+  },
+  "n_instances": 200
+}

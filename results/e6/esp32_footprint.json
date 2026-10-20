@@ -1,0 +1,4 @@
+{"solver_text_bytes_Os": 3540, "workspace_bytes_xtensa": 13968, "costate_text_bytes_Os": 519,
+ "rollout_text_bytes_Os": 1026, "rollout_param_bytes": 2080,
+ "bench_sketch_flash_bytes": 304336, "bench_sketch_static_ram_bytes": 36036,
+ "toolchain": "esp32:esp32 3.3.7, xtensa-esp-elf-gcc 14.2.0"}

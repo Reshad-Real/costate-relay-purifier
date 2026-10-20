@@ -1,0 +1,43 @@
+{
+  "thc": {
+    "th1": 25,
+    "dth": 30,
+    "hyst": 2.5,
+    "gate": true
+  },
+  "thc_edges": {
+    "th1": "interior",
+    "dth": "edge",
+    "hyst": "edge",
+    "gate": "interior"
+  },
+  "pi": {
+    "r25": 25,
+    "r10": 60.0,
+    "kp": 0.5,
+    "ki": 0.1
+  },
+  "pi_edges": {
+    "r25": "edge",
+    "kp": "edge",
+    "ki": "edge"
+  },
+  "timer": {
+    "lead": 0.9166666666666666,
+    "tail": 0.16666666666666666,
+    "u_ff": 0.8
+  },
+  "timer_edges": {
+    "lead": "edge",
+    "tail": "interior",
+    "u_ff": "interior"
+  },
+  "track": {
+    "q": 0.01,
+    "r25": 7.5
+  },
+  "track_edges": {
+    "r25": "interior",
+    "q": "interior"
+  }
+}

@@ -1,0 +1,42 @@
+# Allow-list: the public repository holds only what is behind the manuscript's numbers, tables and figures
+# (code, outdoor data, simulation outputs, generated macros/tables and figures). Everything else in this folder
+# (notes, logs, superseded results, manuscript text, hardware material) stays local.
+/*
+!/.gitignore
+!/README.md
+!/code/
+!/data/
+!/results/
+!/figures2/
+!/manuscript/
+
+# code: simulation package, experiments, analysis, figures, C solver, data preparation, tools
+/code/*
+!/code/aqmpc/
+!/code/experiments/
+!/code/analysis/
+!/code/figures/
+!/code/csolver/
+!/code/data_prep/
+!/code/tools/
+/code/csolver/esp32_bench/
+/code/experiments/hw_predict.py
+/code/tools/fetch_*.py
+/code/tools/patch*.py
+/code/tools/list_cited.py
+/code/tools/make_anon_archive.py
+__pycache__/
+*.pyc
+*.exe
+
+# results: simulation outputs only; the 70 MB raw forecast file is kept as forecast_points.csv.gz
+/results/hw/
+/results/twin_selftest/
+/results/platform/*
+!/results/platform/outdoor_check.json
+/results/e9/forecast_points.csv
+
+# manuscript: only the generated number macros and tables (the manuscript text is not published here)
+/manuscript/*
+!/manuscript/generated/
+/manuscript/generated/tab_cal.tex

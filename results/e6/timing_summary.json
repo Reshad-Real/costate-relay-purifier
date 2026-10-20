@@ -1,0 +1,26 @@
+{
+  "deployed_max_rel_err_vs_python": 6.851542806833903e-07,
+  "deployed_first_move_agreement": 1.0,
+  "deployed_median_time_us": {
+    "0": 1001.2,
+    "1": 447.8,
+    "2": 257.7
+  },
+  "deployed_p95_time_us": {
+    "0": 1179.87,
+    "1": 1203.235,
+    "2": 1009.7699999999999
+  },
+  "deployed_median_nodes": {
+    "0": 5433.0,
+    "1": 328.0,
+    "2": 377.5
+  },
+  "deployed_p95_nodes": {
+    "0": 5461.0,
+    "1": 999.05,
+    "2": 1199.3999999999978
+  },
+  "workspace_bytes_deployed": 13952,
+  "model_bytes_deployed": 4296
+}

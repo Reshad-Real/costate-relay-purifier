@@ -1,0 +1,15 @@
+{
+ "n_days_overlap": 73,
+ "relay_mean": 128.1328456435365,
+ "epa_mean": 128.10445205260254,
+ "r": 0.9999518539131197,
+ "median_abs_rel_diff": 6.182380727533523e-11,
+ "epa_last_date": "2021-12-31",
+ "relay_first": "2021-10-19 04:00:00",
+ "relay_last": "2024-02-01 06:00:00",
+ "relay_hours": 18823,
+ "working_days": 543,
+ "day_mean_median": 78.18181818181819,
+ "day_mean_p5": 25.745454545454546,
+ "day_mean_p95": 206.60909090909087
+}
