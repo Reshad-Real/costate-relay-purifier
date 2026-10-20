@@ -66,4 +66,7 @@ To check the published numbers without rerunning the simulations, run only the l
   [10.23719/1528454](https://doi.org/10.23719/1528454) (`data/external/epa_dhaka/`). The result of the check is in
   `results/platform/outdoor_check.json`.
 
-The third-party data remain subject to their providers' terms.
+## Licence
+
+The code, the simulation outputs and the generated tables and figures are released under the MIT License (see
+`LICENSE`). The third-party data in `data/` remain subject to their providers' terms.
